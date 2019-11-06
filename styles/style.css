@@ -16,6 +16,9 @@ a {
 
 ul,li {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .orange {
@@ -26,7 +29,6 @@ body {
   color: #111;
   font-family:'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 147%;
 }
 
 /* ---- typography ---- */
@@ -51,6 +53,7 @@ h2 {
   margin: 30px;
   position: absolute;
   top: 2px;
+  font-weight: normal;
 }
 
 h3 {
@@ -83,7 +86,7 @@ h3.subheader.subheader {
   display: block;
   height: 25px;
   width: auto;
-  color: #ccc;
+  color: #031D5B;
   font-family: Roboto;
   font-size: 26px;
   font-weight: 500;
@@ -156,10 +159,7 @@ button {
   background-color: #9BDBE7;
   color: #fff;
   text-align: center;
-  border-radius: 10px;
-  margin-bottom: 10px;
   margin-top: 10px;
-  height: 30px;
   height: 60px;	
   width: 168px;	
   border-radius: 20px;	
@@ -178,10 +178,14 @@ input{
     padding: 10px;
     border-radius: 10px;
     border-width: 0px;
-    width: 400px;
-    
+    width: 400px;  
 }
 
+.input {
+  font-family:'Roboto';
+  font-size: 16px;
+  color: rgba(204, 204, 204, 0.26);
+}
 
 
 /* ---- section ---- */
@@ -276,7 +280,6 @@ section.testimonials .button {
 .mobile-promo .img-wrapper {
   width:50%;
   margin: 50px auto;
-  
 }
 
 .img {
@@ -295,7 +298,6 @@ p.subtext {
 .footer {
   text-align: center;
   color: white;
-
 }
 
 .nav {
@@ -312,14 +314,43 @@ p.subtext {
 .comillas {
   position: relative;
   margin-left: 10px;
-
 }
 
 .card {
   background-color: #9BDBE7;
   margin: 20px;
   top: 220px;
-  padding: 80px;
+  padding: 70px 36px 83px 40px;
   margin-right: 80px;
   border-radius: 20px;
+  margin-bottom: 177px;
+}
+
+.windows {
+  background-color: #F8765E;
+  margin: 5px 67px;
+  top: 119px;
+  padding: 278px;
+  /* margin-right: -10px; */
+  border-radius: 20px;
+  position: absolute;
+  z-index: -1;
+  margin-bottom: 50px;
+}
+
+.center {
+  padding-right: 40px;
+  padding-bottom: 50px;
+  line-height: 48px;
+  color: white;
+}
+
+.autor {
+  color: white;
+}
+
+.submit {
+  font-family:'Roboto';
+  font-size: 17px;
+  color: white;
 }
